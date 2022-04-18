@@ -117,6 +117,7 @@ if (date("Hi")>"0800" && date("Hi")<"1745")
     sendEmail($msg);
 }
 
+// Function to send the email
 function sendEmail($msg)
 {
 	$mail = new PHPMailer(true);
@@ -135,8 +136,8 @@ function sendEmail($msg)
 	
 		$mail->setFrom('********', 'Trucks in Yard');
 		$mail->addAddress('********');
-        $mail->addAddress('********');
-        $mail->addAddress('********');
+        	$mail->addAddress('********');
+        	$mail->addAddress('********');
 	
 		$mail->isHTML(true);
 		$mail->Subject = 'Trucks in Yard';
