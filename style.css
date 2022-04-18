@@ -1,0 +1,13 @@
+body {background-color: lightsteelblue}
+h1 {background-color: #344ea2; 
+       color: white; 
+       text-align: center;
+       border: 2px solid white;
+       padding: 10px 20px;}
+h2 {margin-top: -20px;}
+section {margin-left: 5px;}
+fieldset {margin-right: 50%;}
+.red {color: red;}
+.green {color: green;}
+object {border: 2px solid white; margin-bottom: 5px; margin-top: -10px;}
+.fieldset {border-color: white;}
